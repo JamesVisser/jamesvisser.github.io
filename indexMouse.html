@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <img src="./mouse.png" title="Pac Mouse Image" alt="PacMouse" style="padding-top: 75px"><!--mouse png name done in illustrator by Visser-->
+    </header>
+    <!-- CSS to decorate the page elements mouse.png done by Visser in Illustrator pacback done in Affinity By Visser-->
+<style>
+    body {
+        background-image: url("pacback.png");
+        opacity: 50;
+        background-size: cover;
+        height: auto;
+        width: auto;
+    }
+    
+    
+
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 5px;
+        text-shadow: 2px 2px 5px rgb(155, 229, 252);
+
+    }
+
+    h6 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 5px rgb(155, 229, 252);
+
+    }
+
+</style><!--script to crate the mouse array and movement functions learned through MIT xPRO Full Stack -->
+<SCRIPT>
+    var pos = 0;
+    const pacMouseArray = [
+        ['mf1.png', 'mf2.png'],
+        ['mfr1.png', 'mfr2.png']
+    ];
+    var direction = 0;
+    var focus = 0;
+
+    function Run() {
+        let img = document.getElementById("PacMouse");
+        let imgWidth = img.width
+        focus = (focus + 1) % 2;
+        direction = checkPageBounds(direction, imgWidth);
+        img.src = pacMouseArray[direction][focus];
+        if (direction) {
+            pos -= 20;
+            img.style.left = pos + "px";
+        } else {
+            pos += 20;
+            img.style.left = pos + "px";
+        }
+
+        setTimeout(Run, 200);
+    }
+
+    function checkPageBounds(direction, imgWidth) {
+        let pageWidth = window.innerWidth;
+        if (direction === 0 && pos + imgWidth > pageWidth) direction = 1;
+        if (direction === 1 && pos < 0) direction = 0;
+
+        return direction;
+    }
+
+</SCRIPT>
+
+<body> 
+<!--HTML to help create the ghost -->
+    <div class= "pacMouse">
+    <img id="PacMouse" src="mf1.png" width="400" onclick="Run()" style="z-index: 4; top: 290px; position: absolute" title="Click Me"> </img>
+    </div >
+
+    <div id="ghost" style="z-index: 4;
+        position: sticky;
+        margin-top: 300px;
+        left: 550px;        
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border-top-style: outset;
+        border-bottom-right-radius: 30%;
+        border-bottom-left-radius: 30%;
+        border-bottom-style: dashed;
+        background: rgba(51, 203, 250, 0.5)" title="Boooo I am A Ghost">
+        </div>
+<script src="ghost.js"></script>
+
+</body>
+<ul>
+<h1 title="Click Mouse Image">Click Mouse</h1>
+<h6 title="Refresh Page to Start Over">Refresh Page to Start Over</h6>
+</ul>
+</html>
