@@ -66,7 +66,10 @@
     
     
     function makeOne() {
-        pacMen.push(makePac()); // add a new PacMan
+        pacMen.push(makePac()); 
+        pacMen.push(makePac());
+        pacMen.push(makePac()); 
+        pacMen.push(makePac());; // add a new PacMan
     }
 
     if (typeof module !== 'undefined') {
