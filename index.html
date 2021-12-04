@@ -12,19 +12,20 @@
     <header><!--This is the navigation bar where the about information is and links to my git Hub landing page and Repository.-->
       <div class="collapse" id="navbarHeader" style="background-color: rgba(0, 0, 0, 0.753);">
         <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About</h4>
-                <p style="color: ghostwhite">This Portfolio is a combination of small projects used to demonstrate the skills and abilities gained through my 
-                    studies in the xPRO program at the Massachusetts Institute of Technology. In the navigation there are links provided to contact me directly. 
-                    Feel free to connect and possibly colaberate in future coding projects, or chat about life and hobbies. There is a link to view the GitHub 
-                    Repository for this site. Below the Nav-Bar There are Links to my biography, short video, and projects.
+          <div class="row nav justify-content-center">            
+            <div class="col-order-first-sm-4 py-4"><iframe width="350" height="190"  src="https://www.youtube.com/embed/CpoO46UyLu8?&autoplay=1"frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-4 py-4 nav justify-content-center" style="color: ghostwhite; padding-left: 3em; padding-right: 2em;">                
+                <p >
+                  Hello and welcome to my portfolio! This Portfolio is a combination of small projects used to demonstrate the skills and abilities 
+                  gained through my studies in the xPRO program at the Massachusetts Institute of Technology. Feel free to navigate through the features
+                  and connect through LinkedIn.                    
                 </p>
-            </div>
-              <div class="col-sm-4 offset-md-1 py-4">
+              </div>            
+              <div class="col-order-last-sm-4 offset-md-1 py-4">
                 <h4 class="text-white">Contact</h4>
                   <ul class="list-unstyled">
-                    <li><a href="./indexBio.html" title="James Biography Page" class="text-primary">Biography Page</a></li>
+                    <li><a href="./indexBio.html" title="Resume" class="text-primary">Resume</a></li>
                       <li><a href="./indexProjects.html" title="James Projects Page" class="text-primary">Projects Page</a></li>
                       <li><a href="https://www.linkedin.com/in/jv4/" title="James LinkedIn Page" target="_blank" class="text-primary">LinkedIn</a></li>
                       <li><a href="https://github.com/JamesVisser" title="James GitHub main page" target="_blank" class="text-primary">GitHub</a></li>
@@ -46,31 +47,78 @@
       </div>
     </header>    
     <main>      
-      <section class="py-5 text-center container">
-        <!--<div class="border border-info" style="padding-bottom: 30px"-->
-          <div class="row py-lg-5 border border-primary" style="background-color: ghostwhite">
-            <div class="col-lg-6 col-md-8 mx-auto" >
-              <h1 class="text-black" style="font-family:Impact; padding-top: 3rem;">James Visser</h1>
-              <h5 class="text-muted" style="font-family:Geneva">My</h5>
-              <h2 class="text-black" style="font-family:Geneva"><p style="padding-bottom: 30px">Portfolio</p></h2>
-                <p class="lead text-black" style="padding-bottom: 80px;">Welcome to my portfolio. There are three navigational buttons that link to my personal bio, 
-                                                                        video, and projects. Each link Will navigate to the specified target in the button description. 
-                                                                        The biography is a short description of who I am and what I enjoy doing. The video is an 
-                                                                        audio / visual representation of who I am. The projects button will navigate to the projects 
-                                                                        page where several fun applications are located. Each application has a brief description and 
-                                                                        their own navigational button set.  At the top of this page is the navigation bar. This 
-                                                                        navigation bar will flow through the pages and contains additional links and information. Feel 
-                                                                        free to navigate through the entire site and I hope you enjoy.
-                                          
-                </p>
-                <p>
-                  <a href="./indexBio.html" title="Link to James Biography" class="btn btn-primary my-2, text-white">Biography</a>
-                  <a href="https://youtu.be/CpoO46UyLu8" target="_blank" title="Link to Vidiography" class="btn btn-primary my-2, text-white">Video</a>
-                  <a href="./indexProjects.html" title="Link to James Projects" class="btn btn-primary my-2, text-white">Projects</a>
+      <section class="py-2 text-center container">        
+        <article class="my-3" id="carousel">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+              <header style="color: ghostwhite; font-size: 9em; text-shadow: 5px 2px 5px rgba(8, 8, 227, 0.42); padding-bottom: 5px;">My Portfolio</header>
+              <a class="d-flex align-items-center" href="#information">NavNow</a>
+            </div>      
+            <div>
+              <div class="bd-example">
+              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="400" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em"></text></svg>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3 style="padding-top:5em; color: ghostwhite;">Biography</h3>
+                      <p class="text-center py-5" style="color: ghostwhite;">
+                        Hello, my name is James Visser. I am currently training to become a full stack developer through
+                        The Massachusetts Institute of Technology xPro Program. I currently hold a Bachelor of Science
+                        Degree in Information Technology from The University of Phoenix and a Professional Certificate
+                        in General Music Studies from the Berklee College of Music. I enjoy spending time with family and 
+                        friends especially on vacations. I enjoy Coding a great deal as developing new things provides me 
+                        with a chance to use my creative side. When I am not coding, I enjoy playing bass guitar and listening to music.
+                        I also like to illustrate and draw cartoons on paper and computer. My two favorite programs are Adobe Illustrator and Affinity Design. 
+                        Those who wish to connect can find me on LinkedIn at linkedin.com/in/jv4</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item active">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="400" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em"></text></svg>
+                    <div class="carousel-caption d-none d-md-block">                      
+                      <p class="py-1 align-items-center"><img src= "./BioPic.png" title="A picture of the Developer James" alt="Picture of James" width="400"></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="400" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em"></text></svg>
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3 style="padding-top:5em ;">My Portfolio</h3>
+                      <p class="lead text-black py-5">
+                        Welcome to my portfolio! This is my portfolio project where I demonstrate my coding skills while studying at the 
+                        Massachusetts Institute of Technology’s xPro Program. I created this portfolio in various web development styles 
+                        to include JavaScript, HTML, CSS, Framework’s like Bootstrap, and other various snippets of technology. I am currently 
+                        in React (JSX) and will be doing Node.JS and MongoDB shortly. These elements are part of the MERN stack for Full Stack 
+                        Development. In future time I will add more as I go most likely from React and Formik. I use GitHub to host this 
+                        portfolio and my other projects publicly so please check them out and download some code snippets. The links are found 
+                        in the navigation menu to GitHub and it is free to sign up.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              </div>
+            </div>
+          </article>          
+          <div class="row py-lg-2">
+            <div class="col-lg-6 col-md-8 mx-auto" >              
+                <p id="information">
+                  <a href="./indexBio.html" title="Link to Resume" class="btn btn-primary my-1, text-white">Resume</a>
+                  <a href="https://www.linkedin.com/in/jv4/" target="_blank" title="Link to linkedIn" class="btn btn-primary my-1, text-white">LinkedIn</a>
+                  <a href="./indexProjects.html" title="Link to James Projects" class="btn btn-primary my-1, text-white">Projects</a>
                 </p>
             </div>
-          </div>
-        </div>
+          </div>        
       <footer class="text-muted py-5">  
         <div class="container">
             <p class="float-end mb-1">
