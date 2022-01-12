@@ -1,13 +1,3 @@
-/*
-    Colors and styles on cards are from bootstrap
-
-    colors:
-    https://getbootstrap.com/docs/4.5/getting-started/theming/#css-variables
-
-    cards:
-    https://getbootstrap.com/docs/4.5/components/card/
-*/
-
 .card {
   margin-bottom: 25px;
   border-color: var(--secondary);
