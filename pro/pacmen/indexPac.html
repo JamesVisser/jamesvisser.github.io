@@ -1,0 +1,56 @@
+<html lang="en">
+    <style>
+    .background {
+        background-color: rgba(12, 13, 14, 0.685);
+        text-align: center;
+        border-style: solid;
+        border-width: 1rem;
+        border-color: rgba(253, 211, 23, 0.733);
+    }
+    .button { 
+        position: absolute;
+        background-color: #146aebaa;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        top: 3%;
+        left: 2.4%
+    }
+    .button1 { 
+        position: absolute;
+        background-color: #146aebaa;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        top: 3%;
+        right: 2.4%
+    }
+
+    .heading {
+        font-size: 50px;
+        padding-top: 10px;
+        font-family: sans-serif;
+        text-shadow: 5px 2px 5px rgb(250, 217, 73);
+        color: rgba(252, 250, 250, 0.911);
+    }
+    </style>
+    <div class="heading">
+    <h1>PacMen</h1>
+    
+    </div>
+<script src="./pacMen.js"></script>
+
+<body class="background">
+    <div id='game'>
+        
+        <button class="button" onclick='makeOne()' width='200' height='150'>Create PacMen X4</button>
+        <button class="button1" onclick='update()' width='200' height='150'>Move the PacMen</button>
+       
+    </div>
+    
+</body>
+</html>
