@@ -3,7 +3,7 @@ function Spa() {
     <HashRouter>
       <NavBar/>      
         <div className="container" style={{padding: "20px"}}>
-          <Route path="/src/" exact component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path="/src/projects/" component={Projects} />
           <Route path="/src/extra/" component={Extra} />
           <Route path="/src/bio/" component={Bio} />
