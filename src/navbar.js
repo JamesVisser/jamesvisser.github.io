@@ -3,7 +3,7 @@ function NavBar(){
     <>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#src/"  data-placement="bottom" title="Bad Bank">James Visser</a>
+          <a class="navbar-brand" href="#"  data-placement="bottom" title="Bad Bank">James Visser</a>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ol className="navbar-nav">
               <li className="nav-item" class="color">          
@@ -22,7 +22,7 @@ function NavBar(){
                 <a className="nav-link" href="#/src/video/"  data-placement="bottom" title="Navigate to Video">Video</a>
               </li>              
               <li className="nav-item" class="color">
-                <a className="nav-link" href="#src/"  data-placement="bottom" title="Navigate to Home Page">Home</a>
+                <a className="nav-link" href="#"  data-placement="bottom" title="Navigate to Home Page">Home</a>
               </li>          
             </ol>
           </div>
@@ -41,7 +41,7 @@ function NavBar(){
                   <li class="color"><a class="dropdown-item" href="#/src/contact/">Contact</a></li>
                   <li class="color"><a class="dropdown-item" href="#/src/picture/">picture</a></li>
                   <li class="color"><a class="dropdown-item" href="#/src/video/">Video</a></li>                  
-                  <li class="color"><a class="dropdown-item" href="#src/">Home</a></li>
+                  <li class="color"><a class="dropdown-item" href="#">Home</a></li>
                 </ul>
               </li>
             </ul>
