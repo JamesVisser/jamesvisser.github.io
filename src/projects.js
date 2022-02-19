@@ -172,7 +172,60 @@ function Projects() {
           )}
         /> 
       </article>
-    </div> 
+    </div>
+    <div class="row">
+    <article class="col">    
+      <Card      
+        bgcolor="secondary"       
+        txtcolor="white" 
+        header={<header class="header">T3 - Tic Tac Toe</header>}
+        title={<h5 class="htag">
+        The program is called T3 Tic Tac Toe. This game is a basic tic tac toe game that is written in React JavaScript. 
+        The game displays button boxes that hold a state of which player has chosen the current box. 
+        The Game will follow selections and determine which player wins.</h5>}        
+        body={(
+          <>
+          <img src="media/t3.png" className="img-fluid" alt="Responsive image" style={{maxWidth: "auto", maxHight:"auto"}}/>
+          <br/>
+          <a type="link" className="btn btn-secondary" href="pro/t3/indext3.html" target="_blank"   data-placement="bottom" title="Application">Application</a>
+          <a type="link" className="btn btn-secondary" href="https://github.com/JamesVisser/T3-Tic-Tac-Toe" target="_blank"   data-placement="bottom" title="Repository">Repository</a>
+          </>
+        )}
+      />  
+    </article>      
+    <article class="col">
+        <Card      
+          bgcolor="secondary"       
+          txtcolor="white" 
+          header={<header class="header">Coming Soon</header>}
+          title={<h5 class="htag">This is a Place Holder</h5>}          
+          body={(
+            <>
+            <img src="media/moredev.png" className="img-fluid" alt="Responsive image" style={{maxWidth: "auto", maxHight:"auto"}}/>
+            <br/>
+            <a type="link" className="btn btn-secondary" href="#" data-placement="bottom" title="Application">Home</a>
+            <a type="link" className="btn btn-secondary" href="#" data-placement="bottom" title="Repository">Home</a>
+            </>
+          )}
+        /> 
+      </article>
+      <article class="col">
+        <Card      
+          bgcolor="secondary"       
+          txtcolor="white" 
+          header={<header class="header">Coming Soon</header>}
+          title={<h5 class="htag">This is a Place Holder</h5>}          
+          body={(
+            <>
+            <img src="media/moredev.png" className="img-fluid" alt="Responsive image" style={{maxWidth: "auto", maxHight:"auto"}}/>
+            <br/>
+            <a type="link" className="btn btn-secondary" href="#" data-placement="bottom" title="Application">Home</a>
+            <a type="link" className="btn btn-secondary" href="#" data-placement="bottom" title="Repository">Home</a>
+            </>
+          )}
+        /> 
+      </article>
+    </div>
     </main>
   )
 }
