@@ -1,0 +1,74 @@
+.header {
+    text-align: center;
+    font-family: Impact;
+    font-size: 50px;
+    color: rgba(43, 221, 245, 0.767);
+    text-shadow: 2px 2px 2px #0b0d0fc2;
+  }
+
+  .name {
+    margin-top: 2px;
+    text-align: center;
+    font-family: Impact;
+    font-size: 30px;
+    color: rgba(43, 221, 245, 0.767);
+    text-shadow: 2px 2px 2px #0b0d0fc2;
+  }
+
+  .button {
+    background-color: #f1f3f6;
+    border: 6px solid #ffffff;
+    border-radius: 10px;    
+  }
+
+  .game-board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 2px 2px 2px #0b0d0fc2;
+    background-color: rgb(43, 221, 245);
+    color: rgb(255, 255, 255);
+    border: 6px solid #0b0d0f;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-row {
+    border: 6px solid #ffffffce;
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .block {
+    background-color: rgba(255, 255, 255, 0.726);
+    border: 6px solid rgba(255, 255, 255, 0.651);
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20em;
+  }
+
+  .red {
+    color: rgba(9, 255, 0, 0.534);
+    font-size: 40%;
+    text-shadow: 2px 2px 2px #0b0d0fc2;
+  }
+
+  .white {
+    color: rgba(2, 247, 255, 0.699);
+    font-size: 40%;
+    text-shadow: 2px 2px 2px #0b0d0fc2;
+  }
+
+  .footer {
+    text-align: center;
+  }
