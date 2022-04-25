@@ -18,8 +18,6 @@ function Bio() {
             Certificate in General Music Studies from the Berklee College of Music. 
             I have worked in operational support for over twenty years in various technical roles. 
             I provided support to both government and the private sector mainly in transportation and traffic control. 
-            I have also provided support to the retail industry as a pharmaceutical software support agent. 
-            I look forward to providing future support in the development industry as a JavaScript developer.
             </h4>                           
             </div>                
           </div>        
