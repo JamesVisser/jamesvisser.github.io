@@ -17,10 +17,7 @@ function NavBar(){
               </li>
               <li className="nav-item" class="color">
                 <a className="nav-link" href="#/src/picture/"  data-placement="bottom" title="Navigate to Picture">Picture</a>
-              </li> 
-              <li className="nav-item" class="color">
-                <a className="nav-link" href="#/src/video/"  data-placement="bottom" title="Navigate to Video">Video</a>
-              </li>              
+              </li>                        
               <li className="nav-item" class="color">
                 <a className="nav-link" href="#"  data-placement="bottom" title="Navigate to Home Page">Home</a>
               </li>          
@@ -39,8 +36,7 @@ function NavBar(){
                   <li class="color"><a class="dropdown-item" href="#/src/projects/">Projects</a></li>
                   <li class="color"><a class="dropdown-item" href="#/src/Bio/">Bio</a></li>
                   <li class="color"><a class="dropdown-item" href="#/src/contact/">Contact</a></li>
-                  <li class="color"><a class="dropdown-item" href="#/src/picture/">picture</a></li>
-                  <li class="color"><a class="dropdown-item" href="#/src/video/">Video</a></li>                  
+                  <li class="color"><a class="dropdown-item" href="#/src/picture/">picture</a></li>                                
                   <li class="color"><a class="dropdown-item" href="#">Home</a></li>
                 </ul>
               </li>
