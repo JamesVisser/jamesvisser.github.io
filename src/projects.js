@@ -2,27 +2,7 @@ function Projects() {
 
   return (
     <main>
-    <div class="row">
-    <article class="col">
-      <Card      
-        bgcolor="secondary"       
-        txtcolor="white" 
-        header={<header class="header">Bad Bank</header>}
-        title={<h5 class="htag">
-        Bad Bank is a react banking app that can create an acount, render the acount to a card from Json'
-        deposit funds, and move the deposit to the withdraw page. The application was then moved to AWS for hosting.        
-        </h5>}
-        
-        body={( 
-          <>
-            <img src="media/badbank.png" className="img-fluid" alt="Responsive image" style={{maxWidth: "auto", maxHight:"auto"}}/>
-            <br/>
-            <a type="link" className="btn btn-secondary" href="https://mybadbank.s3.amazonaws.com/index.html#/" target="_blank"   data-placement="bottom" title="Application">Application</a>
-            <a type="link" className="btn btn-secondary" href="https://github.com/JamesVisser" target="_blank"   data-placement="bottom" title="Repository">Repository</a>
-          </>
-        )}
-      /> 
-    </article>
+    <div class="row">   
     <article class="col">    
       <Card      
         bgcolor="secondary"       
@@ -77,24 +57,7 @@ function Projects() {
           </>
         )}
       /> 
-      </article>
-      <article class="col">    
-        <Card      
-          bgcolor="secondary"       
-          txtcolor="white" 
-          header={<header class="header">Web ATM</header>}
-          title={<h5 class="htag">This program is built using React and is called WebATM. The app deposits and performs cashback options. The application
-          was built using Create-React-App and deployed using AWS</h5>}        
-          body={(
-            <>
-            <img src="media/WebATM.png" className="img-fluid" alt="Responsive image" style={{maxWidth: "auto", maxHight:"auto"}}/>
-            <br/>
-            <a type="link" className="btn btn-secondary" href="https://jamesvisser.github.io/WebATM/public/index.html" target="_blank"   data-placement="bottom" title="Application">Application</a>
-            <a type="link" className="btn btn-secondary" href="https://github.com/JamesVisser/WebATM" target="_blank"   data-placement="bottom" title="Repository">Repository</a>
-            </>
-          )}
-        />  
-      </article>
+      </article>      
       <article class="col">
         <Card      
           bgcolor="secondary"       
@@ -132,28 +95,7 @@ function Projects() {
           </>
         )}
       />  
-    </article>      
-    <article class="col">
-      <Card      
-        bgcolor="secondary"       
-        txtcolor="white" 
-        header={<header class="header">React Shopping Cart</header>}
-        title={<h5 class="htag">This is a stand alone React Application of a shopping cart. 
-        The shopping cart holds a stock of produce and provides a user interface to choose what items to add to the cart. 
-        The cart will show the amount in total and the product will decrease upon selecting an item. 
-        The stock is located on a local server and will not replenish with the selection. 
-        On the local server I used Strapi to create the database, postman to pass data and graphQl to query specific items. 
-        I used AWS to deploy the application</h5>}        
-        body={(
-          <>
-          <img src="media/shoppingcart.png" className="img-fluid" alt="Responsive image" style={{maxWidth: "auto", maxHight:"auto"}}/>
-          <br/>
-          <a type="link" className="btn btn-secondary" href="https://productcart.s3.amazonaws.com/index.html" target="_blank"   data-placement="bottom" title="Application">Application</a>
-          <a type="link" className="btn btn-secondary" href="https://github.com/JamesVisser/ShoppingCart" target="_blank"   data-placement="bottom" title="Repository">Repository</a>
-          </>
-        )}
-      /> 
-      </article>
+    </article>    
       <article class="col">
         <Card      
           bgcolor="secondary"       
