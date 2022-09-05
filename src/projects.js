@@ -89,7 +89,7 @@ function Projects() {
             <>
             <img src="media/WebATM.png" className="img-fluid" alt="Responsive image" style={{maxWidth: "auto", maxHight:"auto"}}/>
             <br/>
-            <a type="link" className="btn btn-secondary" href="https://webatm.s3.amazonaws.com/index.html" target="_blank"   data-placement="bottom" title="Application">Application</a>
+            <a type="link" className="btn btn-secondary" href="WebATM/public/index.html" target="_blank"   data-placement="bottom" title="Application">Application</a>
             <a type="link" className="btn btn-secondary" href="https://github.com/JamesVisser/WebATM" target="_blank"   data-placement="bottom" title="Repository">Repository</a>
             </>
           )}
